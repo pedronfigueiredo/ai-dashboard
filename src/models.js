@@ -12,6 +12,13 @@ const LABS = Object.freeze({
 
 const models = [
   {
+    name: "Claude Mythos Preview",
+    lab: LABS.Anthropic,
+    release: "2026-04-07",
+    releaseUrl: "https://red.anthropic.com/2026/mythos-preview/",
+    notes: "Also launched Project Glasswing",
+  },
+  {
     name: "Composer 2",
     lab: LABS.Cursor,
     release: "2026-03-19",

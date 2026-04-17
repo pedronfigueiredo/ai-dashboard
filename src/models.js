@@ -12,6 +12,12 @@ const LABS = Object.freeze({
 
 const models = [
   {
+    name: "Claude Opus 4.7",
+    lab: LABS.Anthropic,
+    release: "2026-04-16",
+    releaseUrl: "https://www.anthropic.com/news/claude-opus-4-7",
+  },
+  {
     name: "Claude Mythos Preview",
     lab: LABS.Anthropic,
     release: "2026-04-07",
@@ -36,6 +42,8 @@ const models = [
     lab: LABS.OpenAI,
     release: "2026-03-05",
     releaseUrl: "https://openai.com/index/introducing-gpt-5-4/",
+    metr50: 5 * HOURS + 42 * MINUTES,
+    metr80: 54 * MINUTES,
     notes: "Also released GPT-5.4 Pro",
   },
   {

@@ -4,10 +4,6 @@ const changelogs = [
     url: "https://ampcode.com/chronicle",
   },
   {
-    name: "Beads Releases",
-    url: "https://github.com/steveyegge/beads/releases",
-  },
-  {
     name: "Claude Code Changelog",
     url: "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
   },
